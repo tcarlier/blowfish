@@ -5,7 +5,7 @@ MAINTAINER  Thomas Carlier tcarlier@gmail.com
 RUN curl -L http://cpanmin.us | perl - App::cpanminus
 RUN cpanm Carton
 
-# RUN git clone https://github.com/tcarlier/blowfish.git
+RUN git clone https://github.com/tcarlier/blowfish.git
 
 RUN cd blowfish/blowfish && carton install
 
