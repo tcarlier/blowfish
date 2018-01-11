@@ -1,0 +1,8 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Crypt-Blowfish-2.14
+    pathname: D/DP/DPARIS/Crypt-Blowfish-2.14.tar.gz
+    provides:
+      Crypt::Blowfish 2.14
+    requirements:
+      ExtUtils::MakeMaker 0
