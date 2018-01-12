@@ -7,7 +7,7 @@ RUN cpanm Carton
 
 RUN git clone https://github.com/tcarlier/blowfish.git
 
-RUN cd blowfish/blowfish
+RUN cd blowfish/blowfish & ls
 
 RUN ls
 
