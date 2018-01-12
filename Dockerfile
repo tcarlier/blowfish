@@ -12,4 +12,4 @@ RUN cd blowfish/blowfish && carton install --deployment
 # EXPOSE 8080
 
 WORKDIR blowfish
-CMD carton exec bin/blowfish.pl abcdefgh
+CMD carton exec bin/blowfish.pl
