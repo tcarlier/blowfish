@@ -9,6 +9,8 @@ RUN git clone https://github.com/tcarlier/blowfish.git
 
 RUN cd blowfish
 
+RUN ls
+
 RUN carton install
 
 # EXPOSE 8080
