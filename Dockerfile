@@ -7,7 +7,7 @@ RUN cpanm Carton
 
 RUN git clone https://github.com/tcarlier/blowfish.git
 
-RUN cd blowfish/blowfish && carton install
+RUN cd blowfish/blowfish && carton install --deployment
 
 # EXPOSE 8080
 
